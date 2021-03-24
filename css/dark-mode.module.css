@@ -1,0 +1,37 @@
+.btnContainer {
+    display:flex;
+    align-items: center; 
+    justify-content: space-between;
+    cursor: pointer;
+    background-color: var(--black);
+    border-radius: 20px;
+}
+.title {
+    padding: 1em;
+    color: var(--white);
+    font-weight: bold;
+}
+.link {
+    text-decoration: none;
+    transition: color .15s ease-in;
+}
+
+.tickIconContainer {
+    flex-shrink: 0;
+    border-style: none; 
+    border-width: 0;
+    border: 1px solid var(--white);
+    border-radius: 100%; 
+    cursor: pointer;
+    margin-right: 1rem;
+}
+.darkThemeSelected {
+    background-color: var(--green) !important;
+}
+
+.darkModeIconStyles {
+    display:block;
+    stroke: var(--white);
+    fill: none !important;
+}
+.noUnderline { text-decoration: none; }
